@@ -1,0 +1,40 @@
+{
+    "psi-header.license-text": [
+        "Copyright (c) 2026 Colin Simon-Fellowes  This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "psi-header.config": {
+        "forceToTop": true,
+        "blankLinesAfter": 1,
+        "license": "CC-BY-4.0",
+        "author": "Colin Simon-Fellowes",
+        "initials": "CSF",
+        "creationDateZero": "blank"
+    },
+    "psi-header.variables": [
+        ["licenseurl", "http://creativecommons.org/licenses/by/4.0/"]
+    ],
+    "psi-header.templates": [
+        {
+        "language": "*",
+        "template": [
+            "Copyright (c) <<year>> <<author>>",
+            "",
+            "This work is licensed under the Creative Commons Attribution 4.0",
+            "International License. To view a copy of this license, visit",
+            "<<licenseurl>>"
+        ]
+        }
+    ],
+    "psi-header.lang-config": [
+        {
+        "language": "python",
+        "begin": "",
+        "prefix": "# ",
+        "end": "",
+        "blankLinesAfter": 1
+        }
+    ],
+    "psi-header.changes-tracking": {
+        "autoHeader": "autoSave"
+    }
+}
